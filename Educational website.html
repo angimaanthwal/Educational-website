@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>iEducate - Tranforming Online Education</title>
+	<style>*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.logo img{
+	display: block;
+	margin: auto;
+	width: 50%;
+	border: 1 px solid blue;
+	border-radius: 50px;
+}
+.navbar{
+	background: rgb(23 144 178);;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+.nav-list{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rightNav{
+	width: 50%;
+	text-align: right;
+	padding: 10px;
+}
+.nav-list li{
+	list-style-type: none;
+	padding: 10px;
+}
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+}
+.nav-list li :hover{
+	font-size: 110%;
+}
+#search{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.background{
+	background: rgba(0,0,0,0.7) url("https://image.shutterstock.com/image-vector/idea-on-light-bulbeducation-concept-260nw-671042695.jpg");
+	background-size: cover;
+	backgroung-blend-color : darken;
+}
+.box-main{
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-family: serif;
+	max-width: 90%;
+	margin: auto;
+}
+.firstSection{
+	height: 110vh;
+	display: flex;
+	align-items: center;
+}
+.firstHalf{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.secondHalf img{
+	width: 90%;
+	border: 2px solid white;
+	display: block;
+	margin: auto;
+}
+.text-small{
+	padding: 10px 0;
+	font-size: 16px;
+}
+.text-big{
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+	font-size: 20px;
+}
+.btn{
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid white;
+	border-radius: 5px;
+	background : none;
+	color: white;
+	cursor: pointer;
+}
+.secRight{
+	padding: 50px 0;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+.para{
+	padding: 20px;
+}
+.secLeft{
+	padding: 50px 0;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+.thumbnail img{
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.para .sectionTag{
+	padding: 10px 0;
+	text-align: left;
+
+}
+.para .sectionSubTag{
+	padding: 10px 0;
+}
+footer{
+	background-color: aliceblue;
+	text-align: center;
+}
+form input{
+	border:  1px solid black;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 10px;
+}
+form button{
+	margin: 10px ;
+	padding: 5px 10px;
+	border-radius: 4px;
+	background-color: transparent;
+	border:  1px solid black;
+}
+ .inputs{
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+footer h2{
+	margin: 20px 0;
+}
+form{
+	padding: 10px;
+}
+@media only screen and (max-width: 650px){
+	.navbar{
+		flex-direction: column;
+		position: static;
+	}
+	.nav-list{
+		flex-direction: column;
+	}
+	.rightNav{
+		text-align: center;
+	}
+	.rightNav input{
+		width: 100%;
+	}
+}
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<ul class="nav-list">
+			<div class="logo"><img src="https://image.shutterstock.com/image-vector/education-logo-260nw-688006465.jpg" alt="logo"></div>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+		</ul>
+		<div class="rightNav">
+				<input type="text" name="search" id="search">
+				<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+		<div class="burger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+	<section class="background firstSection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<p class="text-big">The futute of education is here.</p>
+				<p class="text-small">In this world of 7 billion people we need educate them all.</p>
+				<button class="btn">Subscribe</button>
+				<button class="btn">Watch video</button>
+			</div>
+			<div class="secondHalf">
+				<img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/10/Best_education_website_design_jpg_fr5CCeYR-1.jpg?auto=format&q=60&w=1280&h=1280&fit=crop&crop=faces">
+			</div>
+	  </div>
+	</section>
+	<section class="secRight">
+		<div class="para"> 
+		<p class="sectionTag text-big" >The end of your search is here.</p>
+		<p class="sectionSubTag text-small">Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research. Education frequently takes place under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal settings and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called pedagogy.</p>
+		</div>
+		<div class="thumbnail"><img src="https://source.unsplash.com/1600x900/?education" width="100%" alt="image"></div>
+	</section>
+	<section class="secLeft">
+		<div class="thumbnail"><img src="https://source.unsplash.com/1600x900/?html" class="imgFluid" width="100%"></div>
+		<div class="para"> 
+		<p class="sectionTag text-big" >Education in India</p>
+		<p class="sectionSubTag text-small">There are movements for education reforms, such as for improving quality and efficiency of education towards applicable relevance in the students' lives and efficient problem solving in modern or future society at large or for evidence-based education methodologies. A right to education has been recognized by some governments and the United Nations.[a] Global initiatives aim at achieving the Sustainable Development Goal 4, which promotes quality education for all. In most regions, education is compulsory up to a certain age.</p>
+		</div>
+	</section>
+	<section class="secRight">
+		<div class="para"> 
+		<p class="sectionTag text-big" >Let's Grow Together</p>
+		<p class="sectionSubTag text-small">Education began in prehistory, as adults trained the young in the knowledge and skills deemed necessary in their society. In pre-literate societies, this was achieved orally and through imitation. Story-telling passed knowledge, values, and skills from one generation to the next. As cultures began to extend their knowledge beyond skills that could be readily learned through imitation, formal education developed. Schools existed in Egypt at the time of the Middle Kingdom.[2]</p>
+		</div>
+		<div class="thumbnail"><img src="https://source.unsplash.com/1600x900/?programming" class="imgFluid" width="100%"></div>
+	</section>
+	<footer>
+		<hr>
+		<h2>Contact Us</h2>
+		<form>
+			<input class = "inputs" type="text" name="name" placeholder="Enter your name."><br>
+			<input class = "inputs" type="text" name="email" placeholder="Enter your email."><br>
+			<input class = "inputs" type="text" name="phone" placeholder="Enter your phone number."><br>
+			<textarea class = "inputs" placeholder="Your concern." style="height: 100px;"></textarea><br>
+			<button class = "inputs" type="Submit" name="Submit">Submit</button>
+		</form>
+	</footer>
+</body>
+</html> 
